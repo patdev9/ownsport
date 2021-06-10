@@ -1,0 +1,19 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 8889,
+    "username": "root",
+    "password": "rootroot",
+    "database": "ownsportFB",
+    "synchronize": true,
+    "logging": "false",
+    "keepConnectionAlive": true,
+    "entities": [
+        "entities/*.ts"
+    ],
+    "cli": {
+        "entitiesDir": "src/entities",
+        "migrationsDir": "src/migration",
+        "subscribersDir": "src/subscriber"
+    }
+}
